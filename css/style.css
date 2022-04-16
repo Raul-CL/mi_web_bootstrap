@@ -1,14 +1,19 @@
-
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  }
 body{
     background-color: #ededed;
+    font-family: Roboto;
 }
 /*!NAVBAR  */
 .navbar__item{
     transition: all 500ms;
+    font-weight: bold;
 }
 .navbar__item:hover{
     color: #dc3545 !important; 
-    transform: scale(1.03);   
+    transform: scale(1.03);
 }
 /*!NAVBAR  */
 
@@ -31,6 +36,9 @@ body{
 /*!SERVICE  */
 .service__item{
     transition: all 500ms;
+}
+.text-danger{
+    font-weight: bold;
 }
 
 /*!SERVICE  */
