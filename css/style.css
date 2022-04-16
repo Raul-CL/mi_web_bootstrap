@@ -18,8 +18,12 @@ body{
 /*!NAVBAR  */
 
 /*!HOME  */
+.home__gallery{
+    max-width: 600px;
+}
 .home__gallery__item{
     transition: all 500ms;
+    border-radius: 20em;
 }
 .home__gallery__item:hover{
     transform: scale(1.03);
