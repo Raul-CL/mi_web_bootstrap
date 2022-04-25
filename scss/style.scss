@@ -1,0 +1,74 @@
+/*Fuentes  */
+@import "../fonts/fonts";
+
+
+body {
+    background-color: #ededed;
+    font-family: Roboto;
+
+    /*!NAVBAR  */
+    .navbar__item {
+        transition: all 500ms;
+        font-weight: bold;
+        &:hover {
+            color: #dc3545 !important;
+            transform: scale(1.03);
+        }
+    }
+    /*!NAVBAR  */
+
+    /*!HOME  */
+    .home__gallery {
+        max-width: 600px;
+        .home__gallery__item {
+            transition: all 500ms;
+            border-radius: 20em;
+            &:hover {
+                transform: scale(1.03);
+            }
+        }
+    }
+    /*!HOME  */
+
+    /*!GALLERY  */
+    .gallery__gallery__item__sm {
+        transition: all 500ms;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    /*!GALLERY  */
+
+    /*!SERVICE  */
+    .service__item {
+        transition: all 500ms;
+    }
+    .text-danger {
+        font-weight: bold;
+    }
+    /*!SERVICE  */
+
+
+}
+
+/*!MEDIA COMPLEMENTARIOS  */
+/*!GALERIA  */
+@media (min-width: 992px){
+    .gallery__gallery__item__sm{
+        max-width: 33%;
+    }
+}
+
+@media (min-width: 768px){
+    /*!CONTACT US FORM  */
+    .contact_us__form{
+        max-width: 40.75em;
+    }    
+}
+
+@media (min-width: 576px){
+    .service__item:hover{
+        transform: scale(1.05);
+    } 
+}

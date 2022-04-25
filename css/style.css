@@ -1,71 +1,68 @@
+/*Fuentes  */
 @font-face {
-    font-family: Roboto;
-    src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
-  }
-body{
-    background-color: #ededed;
-    font-family: Roboto;
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
-/*!NAVBAR  */
-.navbar__item{
-    transition: all 500ms;
-    font-weight: bold;
+body {
+  background-color: #ededed;
+  font-family: Roboto;
+  /*!NAVBAR  */
+  /*!NAVBAR  */
+  /*!HOME  */
+  /*!HOME  */
+  /*!GALLERY  */
+  /*!GALLERY  */
+  /*!SERVICE  */
+  /*!SERVICE  */
 }
-.navbar__item:hover{
-    color: #dc3545 !important; 
-    transform: scale(1.03);
+body .navbar__item {
+  transition: all 500ms;
+  font-weight: bold;
 }
-/*!NAVBAR  */
+body .navbar__item:hover {
+  color: #dc3545 !important;
+  transform: scale(1.03);
+}
+body .home__gallery {
+  max-width: 600px;
+}
+body .home__gallery .home__gallery__item {
+  transition: all 500ms;
+  border-radius: 20em;
+}
+body .home__gallery .home__gallery__item:hover {
+  transform: scale(1.03);
+}
+body .gallery__gallery__item__sm {
+  transition: all 500ms;
+}
+body .gallery__gallery__item__sm:hover {
+  transform: scale(1.05);
+}
+body .service__item {
+  transition: all 500ms;
+}
+body .text-danger {
+  font-weight: bold;
+}
 
-/*!HOME  */
-.home__gallery{
-    max-width: 600px;
-}
-.home__gallery__item{
-    transition: all 500ms;
-    border-radius: 20em;
-}
-.home__gallery__item:hover{
-    transform: scale(1.03);
-}
-/*!HOME  */
-/*!GALLERY  */
-.gallery__gallery__item__sm{
-    transition: all 500ms;
-}
-.gallery__gallery__item__sm:hover{
-    transform: scale(1.05);
-}
-/*!GALLERY  */
-/*!SERVICE  */
-.service__item{
-    transition: all 500ms;
-}
-.text-danger{
-    font-weight: bold;
-}
-
-/*!SERVICE  */
 /*!MEDIA COMPLEMENTARIOS  */
 /*!GALERIA  */
-@media (min-width: 992px){
-    .gallery__gallery__item__sm{
-        max-width: 33%;
-    }
+@media (min-width: 992px) {
+  .gallery__gallery__item__sm {
+    max-width: 33%;
+  }
+}
+@media (min-width: 768px) {
+  /*!CONTACT US FORM  */
+  .contact_us__form {
+    max-width: 40.75em;
+  }
+}
+@media (min-width: 576px) {
+  .service__item:hover {
+    transform: scale(1.05);
+  }
 }
 
-@media (min-width: 768px){
-    /*!CONTACT US FORM  */
-    .contact_us__form{
-        max-width: 40.75em;
-    }    
-}
-
-@media (min-width: 576px){
-    .service__item:hover{
-        transform: scale(1.05);
-    } 
-}
-
-
-
+/*# sourceMappingURL=style.css.map */
