@@ -1,7 +1,16 @@
-/*Fuentes  */
+@import "../lib/bootstrap/scss/bootstrap";
 
-@import "scss/_fonts";
-@import "scss/_colors";
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+$colors-palets: (
+    bg-dark: #212529,
+    bg-light: #ededed,
+    primary-rose: #dc3545
+);
+
 $db-dark: map-get($colors-palets , bg-dark );
 $db-light: map-get($colors-palets , bg-light );
 $primary-rose: map-get($colors-palets , primary-rose );
@@ -9,8 +18,6 @@ $primary-rose: map-get($colors-palets , primary-rose );
 body {
     background-color: $db-light;
     font-family: Roboto;
-
-    /*!NAVBAR  */
     .navbar__item {
         transition: all 500ms;
         font-weight: bold;
@@ -18,10 +25,7 @@ body {
             color: $primary-rose !important;
             transform: scale(1.03);
         }
-    }
-    /*!NAVBAR  */
-
-    /*!HOME  */
+    }    
     .home__gallery {
         max-width: 600px;
         .home__gallery__item {
@@ -32,9 +36,6 @@ body {
             }
         }
     }
-    /*!HOME  */
-
-    /*!GALLERY  */
     .gallery__gallery__item__sm {
         transition: all 500ms;
 
@@ -42,22 +43,14 @@ body {
             transform: scale(1.05);
         }
     }
-    /*!GALLERY  */
-
-    /*!SERVICE  */
     .service__item {
         transition: all 500ms;
     }
     .text-danger {
         font-weight: bold;
     }
-    /*!SERVICE  */
-
-
 }
 
-/*!MEDIA COMPLEMENTARIOS  */
-/*!GALERIA  */
 @media (min-width: 992px){
     .gallery__gallery__item__sm{
         max-width: 33%;
@@ -65,7 +58,6 @@ body {
 }
 
 @media (min-width: 768px){
-    /*!CONTACT US FORM  */
     .contact_us__form{
         max-width: 40.75em;
     }    
