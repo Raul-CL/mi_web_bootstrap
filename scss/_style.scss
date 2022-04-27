@@ -1,9 +1,13 @@
 /*Fuentes  */
-@import "../fonts/fonts";
 
+@import "scss/_fonts";
+@import "scss/_colors";
+$db-dark: map-get($colors-palets , bg-dark );
+$db-light: map-get($colors-palets , bg-light );
+$primary-rose: map-get($colors-palets , primary-rose );
 
 body {
-    background-color: #ededed;
+    background-color: $db-light;
     font-family: Roboto;
 
     /*!NAVBAR  */
@@ -11,7 +15,7 @@ body {
         transition: all 500ms;
         font-weight: bold;
         &:hover {
-            color: #dc3545 !important;
+            color: $primary-rose !important;
             transform: scale(1.03);
         }
     }
