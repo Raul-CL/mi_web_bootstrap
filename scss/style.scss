@@ -1,0 +1,68 @@
+@import "base/reset.scss";
+@import "base/fonts.scss";
+@import "base/bootstrap.scss";
+@import "../lib/bootstrap/scss/bootstrap";
+
+
+body {
+    background-color: $light;
+
+    header {
+        .container {
+            .navbar__item {
+                color: $light;
+                transition: all 500ms;
+                font-weight: bold;
+
+                &:hover {
+                    color: $primary !important;
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    /*Index  */
+    .home__gallery {
+        max-width: 600px;
+
+        .home__gallery__item {
+            transition: all 500ms;
+
+            &:hover {
+                transform: scale(1.10);
+            }
+        }
+    }
+    /*Gallery  */
+    .gallery__gallery__item__sm {
+        transition: all 500ms;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    /*Service  */
+    .service__item {
+        transition: all 500ms;
+    }
+
+    
+}
+
+@media (min-width: 992px) {
+    .gallery__gallery__item__sm {
+        max-width: 33%;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact_us__form {
+        max-width: 40.75em;
+    }
+}
+
+@media (min-width: 576px) {
+    .service__item:hover {
+        transform: scale(1.05);
+    }
+}
