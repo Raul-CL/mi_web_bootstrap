@@ -1,12 +1,22 @@
-$primary: #dc3545;
+/* $primary: #dc3545;
 $light: #ededed;
-$dark: #212529;
+$dark: #212529; */
 $border-radius: 3em;
 
-.card{
-    overflow: hidden;
+$color-pallete: (
+  primary: #dc3545,
+  light: #ededed,
+  dark: #212529,
+);
+
+$primary: map-get($color-pallete, primary);
+$light: map-get($color-pallete, light);
+$dark: map-get($color-pallete, dark);
+
+.card {
+  overflow: hidden;
 }
 
 .text-danger {
-    font-weight: bold;
+  font-weight: bold;
 }

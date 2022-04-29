@@ -1,0 +1,10 @@
+@import "../base/bootstrap";
+@import "../base/mixins";
+
+header {
+    .container {
+        .navbar__item {
+            @include hoverScale(1em,true)
+        }
+    }
+}

@@ -1,26 +1,15 @@
 @import "base/reset.scss";
 @import "base/fonts.scss";
-@import "base/bootstrap.scss";
+@import "components/navbar";
+@import "components/footer";
+@import "base/bootstrap";
 @import "../lib/bootstrap/scss/bootstrap";
 
 
 body {
     background-color: $light;
 
-    header {
-        .container {
-            .navbar__item {
-                color: $light;
-                transition: all 500ms;
-                font-weight: bold;
-
-                &:hover {
-                    color: $primary !important;
-                    transform: scale(1.1);
-                }
-            }
-        }
-    }
+    
     /*Index  */
     .home__gallery {
         max-width: 600px;
@@ -46,7 +35,6 @@ body {
         transition: all 500ms;
     }
 
-    
 }
 
 @media (min-width: 992px) {

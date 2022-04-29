@@ -1,0 +1,20 @@
+@import "../base/bootstrap";
+@import "../base/mixins";
+
+footer{
+    div{
+        span{
+            @include hoverScale(1em);
+            font-size: 1em !important;
+        }
+    }
+    ul{
+        li{
+            a{
+              i{
+                @include hoverScale(1.5em, true);
+              }  
+            }
+        }
+    }
+}

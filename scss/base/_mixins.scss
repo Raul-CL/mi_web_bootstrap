@@ -1,0 +1,14 @@
+@import "../base/bootstrap";
+
+@mixin hoverScale($font, $scale: false) {
+    color: $light !important;
+    font-size: $font !important;
+    font-weight: bold;
+    transition: all 500ms;
+    &:hover{
+        @if $scale {
+            transform: scale(1.2);
+          }
+        color: map-get($color-pallete, primary) !important;
+    }
+}

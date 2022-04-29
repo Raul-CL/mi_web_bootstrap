@@ -10,6 +10,85 @@
   font-family: Roboto;
   src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
+/* $primary: #dc3545;
+$light: #ededed;
+$dark: #212529; */
+.card {
+  overflow: hidden;
+}
+
+.text-danger {
+  font-weight: bold;
+}
+
+/* $primary: #dc3545;
+$light: #ededed;
+$dark: #212529; */
+.card {
+  overflow: hidden;
+}
+
+.text-danger {
+  font-weight: bold;
+}
+
+header .container .navbar__item {
+  color: #ededed !important;
+  font-size: 1em !important;
+  font-weight: bold;
+  transition: all 500ms;
+}
+header .container .navbar__item:hover {
+  transform: scale(1.2);
+  color: #dc3545 !important;
+}
+
+/* $primary: #dc3545;
+$light: #ededed;
+$dark: #212529; */
+.card {
+  overflow: hidden;
+}
+
+.text-danger {
+  font-weight: bold;
+}
+
+/* $primary: #dc3545;
+$light: #ededed;
+$dark: #212529; */
+.card {
+  overflow: hidden;
+}
+
+.text-danger {
+  font-weight: bold;
+}
+
+footer div span {
+  color: #ededed !important;
+  font-size: 1em !important;
+  font-weight: bold;
+  transition: all 500ms;
+  font-size: 1em !important;
+}
+footer div span:hover {
+  color: #dc3545 !important;
+}
+footer ul li a i {
+  color: #ededed !important;
+  font-size: 1.5em !important;
+  font-weight: bold;
+  transition: all 500ms;
+}
+footer ul li a i:hover {
+  transform: scale(1.2);
+  color: #dc3545 !important;
+}
+
+/* $primary: #dc3545;
+$light: #ededed;
+$dark: #212529; */
 .card {
   overflow: hidden;
 }
@@ -11142,15 +11221,6 @@ body {
   /*Index  */
   /*Gallery  */
   /*Service  */
-}
-body header .container .navbar__item {
-  color: #ededed;
-  transition: all 500ms;
-  font-weight: bold;
-}
-body header .container .navbar__item:hover {
-  color: #dc3545 !important;
-  transform: scale(1.1);
 }
 body .home__gallery {
   max-width: 600px;
