@@ -1,0 +1,17 @@
+@import "./services";
+/*Gallery  */
+main{
+    .gallery__gallery__item__sm {
+        transition: all 500ms;
+        &:hover {
+            transform: scale(1.03);
+        }
+        .card{
+            @extend .service__item;   
+        }
+        
+    }
+    .gallery__gallery__item{
+        @extend .service__item;
+    }
+}

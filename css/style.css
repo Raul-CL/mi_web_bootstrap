@@ -86,6 +86,23 @@ footer ul li a i:hover {
   color: #dc3545 !important;
 }
 
+main .service__item, main .gallery__gallery__item, main .gallery__gallery__item__sm .card {
+  transition: all 500ms;
+  box-shadow: 4px 4px 16px 0 rgba(28, 40, 44, 0.5);
+}
+
+/*Gallery  */
+main .gallery__gallery__item__sm {
+  transition: all 500ms;
+}
+main .gallery__gallery__item__sm:hover {
+  transform: scale(1.03);
+}
+main .service__item, main .gallery__gallery__item__sm .card, main .gallery__gallery__item {
+  transition: all 500ms;
+  box-shadow: 4px 4px 16px 0 rgba(28, 40, 44, 0.5);
+}
+
 /* $primary: #dc3545;
 $light: #ededed;
 $dark: #212529; */
@@ -11219,8 +11236,6 @@ textarea.form-control-lg {
 body {
   background-color: #ededed;
   /*Index  */
-  /*Gallery  */
-  /*Service  */
 }
 body .home__gallery {
   max-width: 600px;
@@ -11230,15 +11245,6 @@ body .home__gallery .home__gallery__item {
 }
 body .home__gallery .home__gallery__item:hover {
   transform: scale(1.1);
-}
-body .gallery__gallery__item__sm {
-  transition: all 500ms;
-}
-body .gallery__gallery__item__sm:hover {
-  transform: scale(1.05);
-}
-body .service__item {
-  transition: all 500ms;
 }
 
 @media (min-width: 992px) {
@@ -11252,7 +11258,7 @@ body .service__item {
   }
 }
 @media (min-width: 576px) {
-  .service__item:hover {
+  .service__item:hover, main .gallery__gallery__item__sm .card:hover, main .gallery__gallery__item:hover {
     transform: scale(1.05);
   }
 }

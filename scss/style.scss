@@ -2,6 +2,8 @@
 @import "base/fonts.scss";
 @import "components/navbar";
 @import "components/footer";
+@import "components/gallery";
+@import "components/services";
 @import "base/bootstrap";
 @import "../lib/bootstrap/scss/bootstrap";
 
@@ -22,19 +24,6 @@ body {
             }
         }
     }
-    /*Gallery  */
-    .gallery__gallery__item__sm {
-        transition: all 500ms;
-
-        &:hover {
-            transform: scale(1.05);
-        }
-    }
-    /*Service  */
-    .service__item {
-        transition: all 500ms;
-    }
-
 }
 
 @media (min-width: 992px) {
