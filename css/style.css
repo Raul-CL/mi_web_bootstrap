@@ -15,6 +15,7 @@ $light: #ededed;
 $dark: #212529; */
 .card {
   overflow: hidden;
+  height: 100%;
 }
 
 .text-danger {
@@ -26,6 +27,7 @@ $light: #ededed;
 $dark: #212529; */
 .card {
   overflow: hidden;
+  height: 100%;
 }
 
 .text-danger {
@@ -53,6 +55,7 @@ $light: #ededed;
 $dark: #212529; */
 .card {
   overflow: hidden;
+  height: 100%;
 }
 
 .text-danger {
@@ -64,6 +67,7 @@ $light: #ededed;
 $dark: #212529; */
 .card {
   overflow: hidden;
+  height: 100%;
 }
 
 .text-danger {
@@ -101,7 +105,7 @@ main .gallery__gallery__item__sm {
   transition: all 500ms;
 }
 main .gallery__gallery__item__sm:hover {
-  transform: scale(1.03);
+  transform: scale(1.01);
 }
 main .service__item, main .gallery__gallery__item__sm .card, main .gallery__gallery__item {
   transition: all 500ms;
@@ -113,6 +117,7 @@ $light: #ededed;
 $dark: #212529; */
 .card {
   overflow: hidden;
+  height: 100%;
 }
 
 .text-danger {

@@ -4,7 +4,7 @@ main{
     .gallery__gallery__item__sm {
         transition: all 500ms;
         &:hover {
-            transform: scale(1.03);
+            transform: scale(1.01);
         }
         .card{
             @extend .service__item;   
