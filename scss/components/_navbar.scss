@@ -2,9 +2,13 @@
 @import "../base/mixins";
 
 header {
+    position: sticky;
+            top: 0;
+            z-index: 1;
     .container {
         .navbar__item {
             @include hoverScale(1em,true)
         }
+        
     }
 }
